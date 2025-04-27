@@ -58,3 +58,16 @@ Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
 - Email: lol2309lol@gmail.com
 - LinkedIn: [Pedro Ariel Andres Roda Macias] (www.linkedin.com/in/pedroroda91)
 - GitHub: [loquendo2309](https://github.com/loquendo2309)
+
+
+## Módulo 1 Ejemplos 
+Este es el proyecto del Modulo 1 Fundamentos de Desarrollo Web, se han cambuando los temas a una paleta oscura de colores para los backgrounds, para los textos se uso colores que den contraste a los colores grises
+
+
+1. En el presesnte repositorio, se ha realizado una modificación al portafolio, cambiando paleta de colores, imagenes, estructura, y anexando htmls, se modifico el html del portafolio, agrego imagenes y audios.
+2. En la carpeta de modulo1ejemplos, tenemos las modificaciones correspondientes a los css dentro de css examples.
+3. Se creo un archivo de galeria de imagenes con CSS Grid.
+4. Se añadio una funcion para calcular el IMC dentro del archivo de javascript en la carpeta js-examples
+5. Se realizo la validación de la nueva sección de javascript de cálculo del IMC.
+6. Se realizo un Api para extraer una imagen de un perro segun la raza.
+7. Se realizo el manejo de errores con etiquetas html dentro de las funciones del api
