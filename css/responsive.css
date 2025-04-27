@@ -5,6 +5,10 @@
     .container {
         width: 95%;
     }
+    .projects-image{
+        text-align: center;
+    }
+
 }
 
 /* Tablets */

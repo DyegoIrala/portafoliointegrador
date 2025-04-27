@@ -12,7 +12,7 @@
     left: 0;
     width: 100%;
     z-index: 1000;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(0, 0, 0, 0.95);
     box-shadow: var(--shadow-light);
     transition: all var(--transition-fast) ease;
 }
@@ -26,6 +26,7 @@
 .nav-links {
     display: flex;
     list-style: none;
+
 }
 
 .nav-links li {
@@ -33,7 +34,7 @@
 }
 
 .nav-links a {
-    color: var(--dark-color);
+    color: rgb(186, 186, 186);
     font-weight: 500;
     transition: color var(--transition-fast) ease;
 }
@@ -62,17 +63,29 @@
     color: var(--white-color);
 }
 
+
+
+
+
 /* Sobre Mí */
 .about-content {
     display: flex;
     align-items: center;
     gap: 50px;
+    background-color: black;
+
 }
 
 .profile-image img {
     border-radius: var(--border-radius-md);
     box-shadow: var(--shadow-medium);
+    max-width: 400px;
 }
+.profile-image:hover{
+    filter: contrast(1.05);
+    transition-duration: 0.6s;
+    scale: 1.05;
+}   
 
 .highlight {
     color: var(--primary-color);
@@ -80,10 +93,17 @@
 }
 
 /* Experiencia */
+.desciption-experience{
+    color: var(--white-color);
+    text-align: center;
+
+}
+
 .timeline {
     position: relative;
     max-width: 800px;
     margin: 0 auto;
+    background-color: rgb(0, 0, 0);
 }
 
 .timeline::after {
@@ -131,7 +151,7 @@
 
 .timeline-content {
     padding: 20px;
-    background-color: var(--white-color);
+    background-color: var(--black-color);
     border-radius: var(--border-radius-md);
     box-shadow: var(--shadow-medium);
 }
@@ -193,3 +213,6 @@ footer {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     font-size: var(--fs-small);
 }
+
+
+

@@ -1,9 +1,11 @@
 /* base.css - Estilos base para elementos HTML */
 
+
+
 body {
     font-family: var(--font-primary);
-    color: var(--dark-color);
-    background-color: var(--white-color);
+    color: var(--white-color);
+    background-color:black;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -54,3 +56,13 @@ textarea:focus {
 button {
     cursor: pointer;
 }
+
+header{
+    background-image: url("../img/Fondo-en-Inicio.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(1.2);
+    
+}
+
